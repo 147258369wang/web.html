@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>这是一个标题</h1>
+    <h2>这是一个标题</h2>
+    <h3>这是一个标题</h3>
+    <p>这是一个段落。</p>
+    <p>这是另外一个段落。</p>
+    <a href="https://www.runoob.com">这是一个链接</a>
+    <img decoding="async" src="/images/logo.png" width="258" height="39" />
+    <a href="http://www.runoob.com">这是一个链接</a>
+    <p>这是一个段落。</p>
+    <hr>
+    <p>这是一个段落。</p>
+    <hr>
+    <p>这是一个段落。</p>
+    <!-- 这是一个注释 -->
+    <p>这个<br>段落<br>演示了分行的效果</p>
+    <a href="url">链接文本</a>
+
+
+    <h2 style="background-color:red;">这是一个标题</h2>
+    <p style="background-color:green;">这是一个段落。</p>
+    <h1 style="text-align:center;">居中对齐的标题</h1>
+    <p>这是一个段落。</p>
+    <h4>一列:</h4>
+    <table border="1">
+        <tr>
+            <td>100</td>
+        </tr>
+    </table>
+
+    <h4>一行三列:</h4>
+    <table border="1">
+        <tr>
+            <td>100</td>
+            <td>200</td>
+            <td>300</td>
+        </tr>
+    </table>
+
+    <h4>两行三列:</h4>
+    <table border="1">
+        <tr>
+            <td>100</td>
+            <td>200</td>
+            <td>300</td>
+        </tr>
+        <tr>
+            <td>400</td>
+            <td>500</td>
+            <td>600</td>
+        </tr>
+    </table>
+    <ul>
+        <li>Coffee</li>
+        <li>Milk</li>
+    </ul>
+    <ol>
+        <li>Coffee</li>
+        <li>Milk</li>
+    </ol>
+    <dl>
+        <dt>Coffee</dt>
+        <dd>- black hot drink</dd>
+        <dt>Milk</dt>
+        <dd>- white cold drink</dd>
+    </dl>
+    <div id="container" style="width:500px">
+
+        <div id="header" style="background-color:#FFA500;">
+            <h1 style="margin-bottom:0;">主要的网页标题</h1>
+        </div>
+
+        <div id="menu" style="background-color:#FFD700;height:200px;width:100px;float:left;">
+            <b>菜单</b><br>
+            HTML<br>
+            CSS<br>
+            JavaScript
+        </div>
+
+        <div id="content" style="background-color:#EEEEEE;height:200px;width:400px;float:left;">
+            内容在这里</div>
+
+        <div id="footer" style="background-color:#FFA500;clear:both;text-align:center;">
+            版权 © runoob.com</div>
+
+    </div>
+    <form action="">
+        Username: <input type="text" name="user"><br>
+        Password: <input type="password" name="password">
+    </form>
+    <form>
+        Password: <input type="password" name="pwd">
+    </form>
+    <form action="">
+        <input type="radio" name="sex" value="male">男<br>
+        <input type="radio" name="sex" value="female">女
+    </form>
+    <form>
+        <input type="checkbox" name="vehicle" value="Bike">我喜欢自行车<br>
+        <input type="checkbox" name="vehicle" value="Car">我喜欢小汽车
+    </form>
+    <form name="input" action="html_form_action.php" method="get">
+        Username: <input type="text" name="user">
+        <input type="submit" value="Submit">
+    </form>
+    <form>
+        <label>Name:
+            <input name="submitted-name" autocomplete="name">
+        </label>
+        <button>Save</button>
+    </form>
+
+    <!-- 以下表单使用 POST 请求发送数据到当前的 URL。 -->
+    <form method="post">
+        <label>Name:
+            <input name="submitted-name" autocomplete="name">
+        </label>
+        <button>Save</button>
+    </form>
+
+    <!-- 表单使用 fieldset, legend, 和 label 标签 -->
+    <form method="post">
+        <fieldset>
+            <legend>Title</legend>
+            <label><input type="radio" name="radio"> Select me</label>
+        </fieldset>
+    </form>
+    <iframe loading="lazy" src="demo_iframe.htm" width="200" height="200"></iframe>
+    <iframe src="demo_iframe.htm" frameborder="0"></iframe>
+    <iframe src="demo_iframe.htm" name="iframe_a"></iframe>
+    <p><a href="https://www.runoob.com" target="iframe_a" rel="noopener">RUNOOB.COM</a></p>
+    <script>
+        document.write("Hello World!");
+    </script>
+    <script>
+        document.write("Hello World!")
+    </script>
+    <noscript>抱歉，你的浏览器不支持 JavaScript!</noscript>
+    document.write("<p>这是一个段落。</p>");
+    <button type="button" onclick="myFunction()">点我！</button>
+    document.getElementById("demo").style.color="#ff0000";
+</body>
+
+</html>
